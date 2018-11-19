@@ -25,13 +25,19 @@ end
  
 
 for i=1:n
+    if mod(i, 1000) == 0
+        fprintf('%d rows processed\n', i);
+    end
     for j=1:n
         if i==j
             W(i,j)=0;
+            %W(j, i) = 0;
         elseif labels(i)>=0 && labels(i)==labels(j)
             W(i,j)=1;
+            %W(j, i)=1;
         elseif labels(i)>=0 && labels(i)~=labels(j)
             W(i,j)=0;
+            %W(j, i) = 0;
         end
         
         

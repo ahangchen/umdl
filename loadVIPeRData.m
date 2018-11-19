@@ -1,7 +1,7 @@
 %ntrials=4;
 
 %%  ��ȡ����   %%
-load('/home/zzy/下载/data/Feature/VIPeR_norm_feature.mat'); %��ȡhand-draft����
+load('data/Feature/VIPeR_norm_feature.mat'); %��ȡhand-draft����
 %load('E:\2017srp\code_ReID_cvpr/data/Feature/underground_norm_feature.mat'); %��ȡhand-draft����
 % h_feature=feature;
 %   load('data/cnndata/VIPeR_CNNfeature.mat'); %��ȡCNN����
@@ -9,7 +9,7 @@ load('/home/zzy/下载/data/Feature/VIPeR_norm_feature.mat'); %��ȡhand-draf
 % feature=[cnn_feature/20;h_feature];
 clear pattribute;
 %% ��ݼ����� %%
- load('/home/zzy/下载/data/Split/VIPeR_split_kcca.mat');  %KCCA �������õ��Ļ��ַ�ʽ
+ load('data/Split/VIPeR_split_kcca.mat');  %KCCA �������õ��Ļ��ַ�ʽ
 %load('E:\2017srp\code_ReID_cvpr\data\Split\underground_split_kcca.mat');
 labelsAtrain=trials(ntrials).labelsAtrain;
 labelsAtest=trials(ntrials).labelsAtest;

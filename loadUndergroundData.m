@@ -1,14 +1,14 @@
-%ntrials=4;
+ntrials=1;
 
 %%  ��ȡ����   %%
-load('/home/zzy/下载/data/Feature/underground_norm_feature.mat'); %��ȡhand-draft����
+load('data/Feature/underground_norm_feature.mat'); %��ȡhand-draft����
 % h_feature=feature;
 %   load('data/cnndata/VIPeR_CNNfeature.mat'); %��ȡCNN����
 %  cnn_feature=feature;
 % feature=[cnn_feature/20;h_feature];
 clear pattribute;
 %% ��ݼ����� %%
- load('/home/zzy/下载/data/Split/grid_split_kcca.mat');  %KCCA �������õ��Ļ��ַ�ʽ
+ load('data/Split/grid_split_kcca.mat');  %KCCA �������õ��Ļ��ַ�ʽ
 
 labelsAtrain=trials(ntrials).labelsAtrain;
 labelsAtest=trials(ntrials).labelsAtest;

@@ -18,10 +18,12 @@ tasks=[tasks,10];
 target_task=length(tasks);
 
 t=1;
+
 %for ntrials=1:10  %10 training-test splits
 %loadVIPeRData;    % Load the target data from VIPeR
-%loadUndergroundData;
-loadMarket1501Data;
+% loadUndergroundData;
+% loadMarket1501Data;
+loadDukeData;
 lablefew;         %
 M{target_task}= zeros(length(labelsTrain),length(labelsTrain));%
 disp('M constructed');
@@ -58,13 +60,6 @@ end
 
 mf=matfile('evaluationResult.mat');
 save('evaluationResult.mat','rss','r','result');
-
-
-
-
-
-
-
 
 
 
