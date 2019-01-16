@@ -1,4 +1,4 @@
-ntrials=1;
+% ntrials=1;
 
 %%  ��ȡ����   %%
 load('data/Feature/underground_norm_feature.mat'); %��ȡhand-draft����

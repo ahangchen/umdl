@@ -3,7 +3,7 @@
 % datanames={'underground','underground','underground','underground'};
 % datanames={'market1501','market1501','market1501','market1501'};
 % datanames={'VIPeR','VIPeR','VIPeR','VIPeR'};
-datanames={'CUHK','CUHK','CUHK','CUHK'};
+datanames={src,src,src,src};
 tasks=[1,2,3]; 
 weight=[0.5,0.5,0.5];
 t=0;
