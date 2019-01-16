@@ -4,7 +4,7 @@
 % datanames={'market1501','market1501','market1501','market1501'};
 % datanames={'VIPeR','VIPeR','VIPeR','VIPeR'};
 datanames={src,src,src,src};
-tasks=[1,2,3]; 
+tasks=[1,2,3];
 weight=[0.5,0.5,0.5];
 t=0;
 for d=tasks
